@@ -1,7 +1,5 @@
 \# Galería Interactiva de Personajes de Rick and Morty
 
-\!\[Rick and Morty\]
-
 \#\# Descripción General del Proyecto
 
 Esta es una aplicación web de tipo desarrollada con HTML, CSS y JavaScript. La aplicación consume la API pública de Rick and Morty (https://rickandmortyapi.com/) para mostrar una galería completa de todos los personajes de la serie.
@@ -13,7 +11,6 @@ Se podrá interactuar con la aplicación de las siguientes maneras:
 \* Ver contadores de votos individuales por personaje y un contador global.  
 \* Los votos persisten localmente en el navegador gracias a \`localStorage\`.
 
-\---
 
 \#\# Instrucciones para Ejecutar la App
 
@@ -32,7 +29,6 @@ La aplicación no requiere un servidor web ni dependencias complejas para ejecut
 
 Después de esto, la aplicación comenzará a cargar los datos de la API.
 
-\---
 
 \#\# Cómo se Consumió la API
 
@@ -45,7 +41,6 @@ El consumo de la API fue uno de los desafíos técnicos principales debido a la 
 
 Durante este proceso, se muestra un mensaje de carga dinámico para mantener informado al usuario.
 
-\---
 
 \#\# Estructura del Código
 
@@ -59,7 +54,6 @@ El proyecto está organizado en tres archivos principales, siguiendo la separaci
     \* La lógica de filtrado en tiempo real.  
     \* La persistencia de los votos en \`localStorage\`.
 
-\---
 
 \#\# Funcionalidades Adicionales
 
@@ -68,7 +62,6 @@ El proyecto está organizado en tres archivos principales, siguiendo la separaci
 \* \*\*Contadores:\*\* Se muestran contadores de likes/dislikes por personaje, el puntaje neto, y un contador global en el encabezado.  
 \* \*\*Visual:\*\* Se implementaron animaciones y transiciones suaves para acciones como la carga de tarjetas, el clic en botones y la actualización de puntajes.
 
-\---
 
 \#\# Decisiones Técnicas
 
