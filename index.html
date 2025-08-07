@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Votación</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Personajes de Rick and Morty</h1>
+        <div class="total-votes">
+            <span>Votos Totales:</span>
+            <span class="total-likes">Likes: <span id="total-likes-count">0</span></span>
+            <span class="total-dislikes">Dislikes: <span id="total-dislikes-count">0</span></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="filter-container">
+            <input type="text" id="name-filter" placeholder="Buscar por nombre o especie...">
+            <select id="status-filter">
+                <option value="">Todos los estados</option>
+                <option value="Alive">Vivo</option>
+                <option value="Dead">Muerto</option>
+                <option value="Unknown">Desconocido</option>
+            </select>
+        </div>
+
+        <div id="character-gallery" class="gallery-container">
+            <div id="loading-message">Cargando personajes...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Los votos se guardan en tu navegador usando localStorage.</p>
+        <p>Desarrollado con la API de <a href="https://rickandmortyapi.com/" target="_blank">rickandmortyapi.com</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
