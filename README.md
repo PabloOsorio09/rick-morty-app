@@ -1,6 +1,6 @@
 \# Galería Interactiva de Personajes de Rick and Morty
 
-\!\[Rick and Morty\](https://rickandmortyapi.com/api/character/avatar/1.jpeg)
+\!\[Rick and Morty\]
 
 \#\# Descripción General del Proyecto
 
