@@ -12,22 +12,29 @@ Se podrá interactuar con la aplicación de las siguientes maneras:
 \* Los votos persisten localmente en el navegador gracias a \`localStorage\`.
 
 
-\#\# Instrucciones para Ejecutar la App
+## Cómo Ejecutar la Aplicación
 
-La aplicación no requiere un servidor web ni dependencias complejas para ejecutarse. Sigue estos sencillos pasos:
+Puedes ejecutar este proyecto de dos maneras muy sencillas. No necesitas instalar nada especial.
 
-1\.  \*\*Clonar el Repositorio:\*\*  
-    \`\`\`bash  
-    git clone \[https://github.com/PabloOsorio09/rick-morty-app.git\](https://github.com/PabloOsorio09/rick-morty-app.git)  
-    \`\`\`  
-2\.  \*\*Navegar a la Carpeta:\*\*  
-    \`\`\`bash  
-    cd rick-morty-app  
-    \`\`\`  
-3\.  \*\*Abrir el Archivo Principal:\*\*  
-    Abre el archivo \`index.html\` directamente en el navegador.
+### Opción 1: La Forma Más Fácil
 
-Después de esto, la aplicación comenzará a cargar los datos de la API.
+1.  **Descarga el Código:** En la página principal de este repositorio, haz clic en el botón verde que dice **`<> Code`** y luego seleccionar **`Download ZIP`**.
+2.  **Descomprime el Archivo:** Busca el archivo `.zip` que descargaste y descomprímelo. Esto creará una carpeta con todos los archivos del proyecto.
+3.  **Abre la Aplicación:** Entra en la carpeta que acabas de crear y haz doble clic en el archivo `index.html`.
+
+### Opción 2: Para Usuarios de Git
+
+1.  **Clona el Repositorio:** Abre una terminal o consola y ejecuta el siguiente comando:
+    ```bash
+    [https://github.com/PabloOsorio09/rick-morty-app.git](https://github.com/PabloOsorio09/rick-morty-app.git)
+    ```
+2.  **Entra en la Carpeta:**
+    ```bash
+    cd rick-morty-app
+    ```
+3.  **Abre el Archivo:** Abre el archivo `index.html` en el navegador.
+
+Después de esto, en ambos casos, la aplicación comenzará a cargar los datos de la API.
 
 
 \#\# Cómo se Consumió la API
